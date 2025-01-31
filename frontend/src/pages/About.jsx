@@ -1,5 +1,7 @@
 import React from 'react'
-import Title from '../components/title'
+// import Title from '../components/title'
+
+import Title from '../components/Title.jsx';
 import { assets } from '../assets/frontend_assets/assets'
 import Newsletterbox from '../components/Newsletterbox'
 

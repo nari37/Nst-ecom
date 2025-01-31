@@ -163,7 +163,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { Shopcontext } from '../context/Shopcontext';
 import { assets } from '../assets/frontend_assets/assets';
-import Title from '../components/title';
+import Title from '../components/Title.jsx';
 import Productsitem from '../components/Productsitem';
 
 const Collection = () => {

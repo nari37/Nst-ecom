@@ -1,7 +1,8 @@
 import React, { useContext } from 'react'
 import { Shopcontext } from '../context/Shopcontext'
-import Title from './title';
+// import Title from './title';
 
+import Title from './Title';
 
 const Carttotal = () => {
 
