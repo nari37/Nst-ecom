@@ -38,6 +38,10 @@ mongoose.connect(process.env.MONGODB_URI)
   .catch(err => console.error('MongoDB connection error:', err));
 
 // Routes
+
+app.use('/',(req,res)=>{
+    res.send("Api is WOrking...")
+});
 app.use('/api/user', userrouter);
 app.use('/api/product', productrouter);
 app.use('/api/cart', cartrouter)
