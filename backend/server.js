@@ -39,7 +39,7 @@ mongoose.connect(process.env.MONGODB_URI)
 
 // Routes
 
-app.use('/',(req,res)=>{
+app.get('/',(req,res)=>{
     res.send("Api is WOrking...")
 });
 app.use('/api/user', userrouter);
