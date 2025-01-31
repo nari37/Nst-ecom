@@ -17,7 +17,7 @@ connectcloudinary();
 app.use(express.json());
 
 // Correct CORS Configuration
-const allowedOrigins = ['http://localhost:5174', 'http://localhost:5173'];
+const allowedOrigins = ['https://nst-ecom-admin.onrender.com', 'https://nst-ecom-frontend.onrender.com'];
 app.use(cors({
   origin: (origin, callback) => {
     
